@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ABC.js styles */
+.abcjs-inline-audio {
+  @apply max-w-full mb-4;
+}
+
+.abcjs-inline-audio button {
+  @apply bg-gray-100 text-gray-800 px-3 py-1 rounded border border-gray-300 hover:bg-gray-200 transition-colors;
+}
+
+.abcjs-midi-progress-background {
+  @apply bg-gray-200 rounded-full;
+}
+
+.abcjs-midi-progress-indicator {
+  @apply bg-blue-500 rounded-full;
+}
+
+.abcjs-midi-clock {
+  @apply text-gray-600 text-sm;
+}
+
+.abcjs-css-warning {
+  @apply hidden;
+}
+
+/* Note highlight effect */
+.highlight {
+  @apply fill-blue-500 transition-colors duration-100;
+}
+
+/* Cursor styles */
+.cursor {
+  transition: all 0.1s ease;
+}
